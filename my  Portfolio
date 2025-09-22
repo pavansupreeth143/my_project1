@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dmpavansupreeth.in</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">WelCome...</div>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <style>
+                .typing {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #FFD700;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid #FFD700;
+      width: 0;
+      animation: typing 3s steps(22) forwards, blink 0.6s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 30ch; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+  </style>
+  <h1 class="intro-text">Hello, I'm</h1>
+
+
+  <div class="typing">Dommeti Mahathi Pavan Supreeth....</div>
+
+                <p class="description"> I'm a creative developer building modern mobile apps and responsive websites using HTML, CSS, and JavaScript. 
+  With a focus on clean design and intuitive user experiences, I bring digital ideas to life through powerful frontend development.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://media.licdn.com/dms/image/v2/D5603AQF6kDeHcfNhFg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727701587297?e=1761177600&v=beta&t=G_E42KKM3AdSMx4qCBr-FhaLAQCn7xWSUrtjFQ42KSw" alt="Your Profile Picture">
+                    </div>
+                    <div class="about-text">
+                        <p>
+  Hi, I'm D.M. Pavan Supreeth, a Computer Science Engineering (CSE - AIML) student at Aditya College of Engineering and Technology, currently in my 3rd year. I specialize in developing interactive and responsive web pages and mobile applications using HTML, CSS, and JavaScript.
+</p>
+
+<p>
+  My passion for technology started early, and since then, I've been on a journey of continuous learning and hands-on experimentation. I love turning creative ideas into real-world digital experiences that are both functional and user-friendly.
+</p>
+
+
+<p>
+  In my free time, you’ll find me exploring the latest tech trends, refining my UI/UX skills, or working on personal projects that challenge my creativity. I'm also a strong believer in lifelong learning and growing one step at a time.
+</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <h3>Web Development</h3>
+                        <ul>
+                            <li>HTML</li> 
+                               <li>CSS</li>
+                            <li>JavaScript (Basic)</li>
+        
+                            <li>Fire Base DB </li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Design Tools</h3>
+                        <ul>
+                            <li>Adobe Photoshop</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Other Skills</h3>
+                        <ul>
+                            
+                            <li>Problem Solving</li>
+                            <li>Communication</li>
+                            <li>Project Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="https://cdn-icons-gif.flaticon.com/10971/10971873.gif"class="project-card" class="project-card alter="Project 1 Thumbnail"> <h3>Project 1:  Tic Tac Toe App</h3>
+              
+                        <p>im created a tic tac toe game mobile app using HTML,CSS,and JAVASCRIPT</p>
+                        <a href="https://www.linkedin.com/posts/mahathi-pavan-supreeth-dommeti-6b8ab42a3_tictactoe-htmlcss-frontenddevelopment-activity-7328333103167377408-mSqk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElPwewBqI18i2mG0Lt6pynH2wXbqIEbQhg" target="_blank" class="project-link">View on Linked IN</a>
+                        <a href="https://www.mediafire.com/file/97qgky5mhbi2ley/Tic+Tac+Toe.apk/file" target="_blank" class="project-link">APP Link</a>
+                        </div>
+
+                    <div class="project-card">
+                        <img src="project2.jpg" alt="Project 2 "> <h3>Project 2: </h3>
+                        <p>....</p>
+                        <a href="#" target="_blank" class="project-link">View on Linked IN</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="project3.jpg" alt="Project 3 "> <h3>Project 3:</h3>
+                        <p>....</p>
+                        <a href="#" target="_blank" class="project-link">View On Linked IN</a>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        
+                   
+      <style>  
+  .contact-section {
+      text-align: center;
+      padding: 50px 20px;
+      background: #f0f0f0;
+    }
+
+    .contact-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      color: #333;
+      letter-spacing: 1px;
+    }
+
+    .contact-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .contact-buttons a {
+      padding: 14px 25px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .contact-buttons a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .linkedin {
+      background: #0077b5;
+    }
+
+    .instagram {
+      background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+    }
+
+    .twitter {
+      background: #1da1f2;
+    }
+    .E-mail {
+        background: linear-gradient(45deg, #dd068e, #dd068e, #dd068e);
+
+    }
+
+    .footer {
+      text-align: center;
+      background: #2d2d2d;
+      color: #fff;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+  </style>
+
+  <section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <div class="contact-buttons">
+      <a href="https://www.linkedin.com/in/mahathi-pavan-supreeth-dommeti-6b8ab42a3/" target="_blank" class="linkedin">LinkedIn</a>
+      <a href="https://www.instagram.com/d_m_pavan_supreeth_/" target="_blank" class="instagram">Instagram</a>
+      <a href="https://x.com/DMPavanSupreeth" target="_blank" class="twitter">Twitter</a>
+      <a href="mailto:dmpavansupreeth@gmail.com" target="_blank" class="E-mail">E-Mail</a>
+
+    </div>
+  </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 dmp@v@nsupreeth.</p>
+               <p>All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
